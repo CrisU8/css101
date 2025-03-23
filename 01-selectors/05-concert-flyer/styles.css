@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(skyblue, green) no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(skyblue, green) no-repeat; /* Aplica un fondo con un gradiente lineal que va de celeste a verde, sin repetirse */
+    margin: 0;  /* Elimina el margen externo del <body>, útil para evitar espacios en blanco alrededor de la página */
+    padding: 0; /* Elimina el relleno interno del <body>, asegurando que los contenidos estén alineados al borde */
+    min-height: 100vh; /* Asegura que el <body> tenga al menos la altura de la ventana del navegador (100% del viewport height) */
+    width: 100%; /* Establece que el ancho del <body> ocupe todo el ancho de la ventana */
+}
+
+main, header, footer {
+    width: 70%;         /* Define que estos elementos ocuparán el 70% del ancho de la ventana */
+    margin: auto;       /* Centra horizontalmente los elementos al establecer márgenes automáticos a los lados */
+}
+
+
+header, footer {
+    text-align: center;
+}
+
+header > img {
+    display: block;     /* Elimina el espacio extra que tienen las imágenes por defecto al ser inline-block */
+    width: 50%;         /* Establece que la imagen ocupará el 50% del ancho del contenedor (el header en este caso) */
+    margin: auto;       /* Centra la imagen horizontalmente dentro del header */
+}
+
+
+section#night-2 {
+    text-align: right;
+}
