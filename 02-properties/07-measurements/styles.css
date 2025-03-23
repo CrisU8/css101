@@ -1,0 +1,10 @@
+#absolute {
+    width: 100px;
+}
+
+#relative {
+    width: 50%;
+}
+
+/* Una medida relativa %, em, rem depends on the
+size of other elements e.g. the size of the window.*/
