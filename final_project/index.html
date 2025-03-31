@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Personal Site</title>
+</head>
+<body>
+<header>
+    <h1>Cristopher <span id="apellido">Urbina</span></h1>
+    <nav id="navbar">
+        <ul class="nav-list">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- ABOUT -->
+    <section id="welcome-section">
+        <h2>About</h2>
+        <div class="about-container">
+            <img src="https://avatars.githubusercontent.com/u/108028666?v=4" alt="Foto de Cristopher" class="about-img">
+            <div class="about-text">
+                <p>
+                    Hello! I'm Cristopher Urbina, passionate about continuous learning.
+                    I love exploring the world of data, artificial intelligence, and programming.
+                    I'm always looking for new ways to combine creativity and technology to solve real-world problems.                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-tile">
+            <article class="project-item">
+                <h3 class="project-title">Menú restaurant</h3>
+                <p class="project-content">
+                    A simple but elegant restaurant menu made with pure HTML and CSS.
+                    <br />
+                    <a href="https://www.codedex.io/Helq3Aw3B4jj11HDtFnV/live" target="_blank">View Project</a>
+                </p>
+                <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                </div>
+            </article>
+
+            <article class="project-item">
+                <h3 class="project-title">Personal blog</h3>
+                <p class="project-content">
+                    A project where I share my learnings about technology, artificial intelligence, programming, and data science.
+                    <br />
+                    <a href="https://menteartificial.ai" target="_blank">Visitar Blog</a>
+                </p>
+                <div class="badges">
+                    <span class="badge">Hugo</span>
+                    <span class="badge">Markdown</span>
+                    <span class="badge">GitHub Pages</span>
+                </div>
+            </article>
+
+            <article class="project-item">
+                <h3 class="project-title">Personal portfolio</h3>
+                <p class="project-content">
+                    This portfolio was developed to showcase my projects, interests, and ways to get in touch.
+                    It features a responsive design and custom styling.
+                    <br />
+                    <a href="https://tu-link-de-portafolio.com" target="_blank">Ver Portafolio</a>
+                </p>
+                <div class="badges">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p> Do you have an idea or just want to chat? Let’s talk!</p>
+        <form class="contact-form" action="https://formsubmit.co/tu-correo@example.com" method="POST">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+
+
+<footer>
+    <span>Made with ❤️ by <a href="https://codedex.io/@CrisU8">CrisU8</a></span>
+</footer>
+</body>
+</html>

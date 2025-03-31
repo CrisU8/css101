@@ -1,0 +1,218 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #1f1b24;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Gradiente púrpura para el apellido */
+#apellido {
+    background: linear-gradient(90deg, #a64ac9, #7b2cbf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* NAVBAR */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #d1b3ff;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-list a:hover {
+    color: #bb86fc;
+}
+
+/* SECTIONS */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+/* ABOUT SECTION */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.about-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 3px solid #7b2cbf;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+/* BADGES */
+.badges {
+    margin-top: 0.5rem;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #7b2cbf;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    margin-right: 0.3rem;
+}
+
+/* PROJECTS */
+.project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.project-item {
+    background-color: #2a2438;
+    width: 220px;
+    min-height: 220px;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(123, 44, 191, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* evita que contenido se desborde visualmente */
+    word-wrap: break-word; /* corta texto largo si es necesario */
+}
+
+
+.project-content {
+    font-size: 0.9rem;
+    color: #ccc;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.project-content a {
+    color: #bb86fc;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.project-content a:hover {
+    text-decoration: underline;
+}
+
+
+.project-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(187, 134, 252, 0.4);
+}
+
+.project-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #bb86fc;
+}
+
+.project-content {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+/* CONTACT FORM */
+
+#contact{
+    align-items: center;
+    text-align: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 1rem;
+    margin: 1rem auto 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #1f1b24;
+    border: 1px solid #7b2cbf;
+    padding: 0.75rem;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #7b2cbf;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.contact-form button:hover {
+    background-color: #a64ac9;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1f1b24;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+footer a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
